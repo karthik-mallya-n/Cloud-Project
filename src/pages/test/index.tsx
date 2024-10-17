@@ -25,8 +25,8 @@ export default function test() {
       {
         hotels.data?.map((hotel) => {
           return (
-            <div>
-              <h1 key={hotel.id}>{hotel.name}</h1>
+            <div key={hotel.id}>
+              <h1 >{hotel.name}</h1>
               <div>
                 <div>
                   {" "}
